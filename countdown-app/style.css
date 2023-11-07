@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 700px; 
+}
+
+.col-3 {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 20%; 
+    max-width: none; 
+}
+
+
+#days, #hours, #mins, #secs {
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px; 
+}
+
+.text-days, .text-hours, .text-mins, .text-secs {
+    font-size: medium;
+    margin: 5px;
+}
+
+#countdown {
+    position: relative;
+    font-size: larger;
+    font-weight: bolder;
+}
